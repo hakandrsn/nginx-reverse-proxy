@@ -28,5 +28,5 @@ services:
       - dockernet
 # if your service is running outside of docker comment out networks section
 networks:
-  dockernet:
+  crm:
     external: true
